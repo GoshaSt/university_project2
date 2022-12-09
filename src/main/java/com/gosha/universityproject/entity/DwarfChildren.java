@@ -2,7 +2,6 @@ package com.gosha.universityproject.entity;
 
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
-import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -37,7 +36,6 @@ public class DwarfChildren {
     private LocalDateTime dateCreated;
 
     @Column(name = "datefinished")
-    @UpdateTimestamp
     private LocalDateTime dateFinished;
 
 }

@@ -8,4 +8,5 @@ import org.springframework.stereotype.Repository;
 public interface DwarfRepository extends JpaRepository<Dwarf, Long> {
 
     Dwarf getTopByOrderByIdDesc();
+
 }
